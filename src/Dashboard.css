@@ -1,0 +1,24 @@
+/* Dashboard.css */
+.dashboard-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Smooth fade-in */
+  }
+  
+  .dashboard-container.fade-in {
+    opacity: 1;
+  }
+  
+  /* You can add additional CSS for styling the dashboard */
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
